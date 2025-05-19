@@ -1,0 +1,30 @@
+C:\Users\genax\source\repos\fractal\fractal\bin\Debug\fractal.exe.config
+C:\Users\genax\source\repos\fractal\fractal\bin\Debug\fractal.exe
+C:\Users\genax\source\repos\fractal\fractal\bin\Debug\fractal.pdb
+C:\Users\genax\source\repos\fractal\fractal\obj\Debug\fractal.csproj.AssemblyReference.cache
+C:\Users\genax\source\repos\fractal\fractal\obj\Debug\MainWindow.g.cs
+C:\Users\genax\source\repos\fractal\fractal\obj\Debug\App.g.cs
+C:\Users\genax\source\repos\fractal\fractal\obj\Debug\fractal_MarkupCompile.cache
+C:\Users\genax\source\repos\fractal\fractal\obj\Debug\fractal_MarkupCompile.lref
+C:\Users\genax\source\repos\fractal\fractal\obj\Debug\MainWindow.baml
+C:\Users\genax\source\repos\fractal\fractal\obj\Debug\fractal.g.resources
+C:\Users\genax\source\repos\fractal\fractal\obj\Debug\fractal.Properties.Resources.resources
+C:\Users\genax\source\repos\fractal\fractal\obj\Debug\fractal.csproj.GenerateResource.cache
+C:\Users\genax\source\repos\fractal\fractal\obj\Debug\fractal.csproj.CoreCompileInputs.cache
+C:\Users\genax\source\repos\fractal\fractal\obj\Debug\fractal.exe
+C:\Users\genax\source\repos\fractal\fractal\obj\Debug\fractal.pdb
+D:\СУНЦ\инфа\фракталы\кирик\Новая папка\fractal\fractal\bin\Debug\fractal.exe.config
+D:\СУНЦ\инфа\фракталы\кирик\Новая папка\fractal\fractal\bin\Debug\fractal.exe
+D:\СУНЦ\инфа\фракталы\кирик\Новая папка\fractal\fractal\bin\Debug\fractal.pdb
+D:\СУНЦ\инфа\фракталы\кирик\Новая папка\fractal\fractal\obj\Debug\fractal.csproj.AssemblyReference.cache
+D:\СУНЦ\инфа\фракталы\кирик\Новая папка\fractal\fractal\obj\Debug\MainWindow.g.cs
+D:\СУНЦ\инфа\фракталы\кирик\Новая папка\fractal\fractal\obj\Debug\App.g.cs
+D:\СУНЦ\инфа\фракталы\кирик\Новая папка\fractal\fractal\obj\Debug\fractal_MarkupCompile.cache
+D:\СУНЦ\инфа\фракталы\кирик\Новая папка\fractal\fractal\obj\Debug\fractal_MarkupCompile.lref
+D:\СУНЦ\инфа\фракталы\кирик\Новая папка\fractal\fractal\obj\Debug\MainWindow.baml
+D:\СУНЦ\инфа\фракталы\кирик\Новая папка\fractal\fractal\obj\Debug\fractal.g.resources
+D:\СУНЦ\инфа\фракталы\кирик\Новая папка\fractal\fractal\obj\Debug\fractal.Properties.Resources.resources
+D:\СУНЦ\инфа\фракталы\кирик\Новая папка\fractal\fractal\obj\Debug\fractal.csproj.GenerateResource.cache
+D:\СУНЦ\инфа\фракталы\кирик\Новая папка\fractal\fractal\obj\Debug\fractal.csproj.CoreCompileInputs.cache
+D:\СУНЦ\инфа\фракталы\кирик\Новая папка\fractal\fractal\obj\Debug\fractal.exe
+D:\СУНЦ\инфа\фракталы\кирик\Новая папка\fractal\fractal\obj\Debug\fractal.pdb

@@ -1,0 +1,35 @@
+﻿<Window x:Class="fractal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:fractal"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1280">
+    <Grid Width="1280" Height="720">
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="600" Margin="50,50,0,0" VerticalAlignment="Top" Width="600" MouseLeftButtonDown="MLBD" MouseLeftButtonUp="MLBU" MouseMove="MM"/>
+        <Rectangle HorizontalAlignment="Left" Height="602" Margin="49,49,0,0" Stroke="Black" VerticalAlignment="Top" Width="602"/>
+        <Canvas x:Name="canvas1" HorizontalAlignment="Left" Height="600" Margin="50,50,0,0" VerticalAlignment="Top" Width="600" Panel.ZIndex="1"/>
+        <Label x:Name="fract_type_label" Content="Type of fractal" HorizontalAlignment="Left" Margin="790,49,0,0" VerticalAlignment="Top" Width="364" Height="53" FontSize="40" FontFamily="Algerian" FontWeight="Bold"/>
+        <Button x:Name="reset_btn" Content="RESET" HorizontalAlignment="Left" Margin="1010,593,0,0" VerticalAlignment="Top" FontFamily="Algerian" FontWeight="Bold" FontSize="40" Width="164" Click="RBC"/>
+        <Button x:Name="type_button" Content="Julia" HorizontalAlignment="Left" Height="43" Margin="878,115,0,0" VerticalAlignment="Top" Width="188" FontFamily="Algerian" FontSize="24" Click="type_button_click"/>
+        <Slider x:Name="slider1" HorizontalAlignment="Left" Margin="1025,209,0,0" VerticalAlignment="Top" Width="219" Height="23" Minimum="-1" Maximum="1" IsSnapToTickEnabled="True" ValueChanged="VC_S1" SmallChange="1" TickFrequency="0.01" Value="-0.25"/>
+        <Label x:Name="tag1" Content="Real part of Julia's" HorizontalAlignment="Left" Margin="697,183,0,0" VerticalAlignment="Top" Width="261" FontFamily="Algerian" Height="47" FontSize="24"/>
+        <Label x:Name="tag2" Content="parameter" HorizontalAlignment="Left" Margin="752,213,0,0" VerticalAlignment="Top" Width="152" FontFamily="Algerian" FontSize="24"/>
+        <Label x:Name="tag3" Content="IMaginary part of Julia's " HorizontalAlignment="Left" Margin="662,261,0,0" VerticalAlignment="Top" Width="332" FontFamily="Algerian" Height="47" FontSize="24"/>
+        <Label x:Name="tag4" Content="parameter" HorizontalAlignment="Left" Margin="752,291,0,0" VerticalAlignment="Top" Width="152" FontFamily="Algerian" FontSize="24"/>
+        <Slider x:Name="slider2" HorizontalAlignment="Left" Margin="1025,287,0,0" VerticalAlignment="Top" Width="219" Height="23" Minimum="-1" Maximum="1" TickFrequency="0.01" IsSnapToTickEnabled="True" ValueChanged="VC_S2" Value="-0.64"/>
+        <Label x:Name="tag5" Content="Color Parameter 1" HorizontalAlignment="Left" Margin="710,348,0,0" VerticalAlignment="Top" Width="234" FontFamily="Algerian" Height="48" FontSize="24"/>
+        <Slider x:Name="slider3" HorizontalAlignment="Left" Margin="1025,362,0,0" VerticalAlignment="Top" Width="219" Height="24" IsSnapToTickEnabled="True" TickFrequency="0.1" ValueChanged="VC_S3" Maximum="6.283" Value="0.5"/>
+        <Label x:Name="tag7" Content="color parameter 2" HorizontalAlignment="Left" Margin="700,425,0,0" VerticalAlignment="Top" Width="256" FontFamily="Algerian" Height="47" FontSize="24"/>
+        <Slider x:Name="slider4" HorizontalAlignment="Left" Margin="1025,439,0,0" VerticalAlignment="Top" Width="219" Height="24" IsSnapToTickEnabled="True" TickFrequency="0.1" ValueChanged="VC_S4" Value="2"/>
+        <Label x:Name="tag9" Content="Smooth  parameter" HorizontalAlignment="Left" Margin="699,500,0,0" VerticalAlignment="Top" Width="256" FontFamily="Algerian" Height="47" FontSize="24"/>
+        <Slider x:Name="slider5" HorizontalAlignment="Left" Margin="1025,514,0,0" VerticalAlignment="Top" Width="219" Height="24" Maximum="100" Minimum="1" IsSnapToTickEnabled="True" TickFrequency="0.001" ValueChanged="VC_S5" Value="50"/>
+        <Label x:Name="val1" Content="{Binding ElementName=slider1, Path=Value, UpdateSourceTrigger=PropertyChanged}"  HorizontalAlignment="Left" Margin="1120,183,0,0" VerticalAlignment="Top" FontFamily="Algerian"/>
+        <Label x:Name="val2" Content="{Binding ElementName=slider2, Path=Value, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="1120,261,0,0" VerticalAlignment="Top" FontFamily="Algerian"/>
+        <Label x:Name="val3" Content="{Binding ElementName=slider3, Path=Value, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="1120,335,0,0" VerticalAlignment="Top" FontFamily="Algerian"/>
+        <Label x:Name="val4" Content="{Binding ElementName=slider4, Path=Value, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="1120,413,0,0" VerticalAlignment="Top" FontFamily="Algerian"/>
+        <Label x:Name="val5" Content="{Binding ElementName=slider5, Path=Value, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="1120,489,0,0" VerticalAlignment="Top" FontFamily="Algerian"/>
+        <Button x:Name="draw_button" Content="draw" HorizontalAlignment="Left" Margin="752,593,0,0" VerticalAlignment="Top" FontFamily="Algerian" FontWeight="Bold" FontSize="40" Width="164" Click="draw"/>
+    </Grid>
+</Window>
